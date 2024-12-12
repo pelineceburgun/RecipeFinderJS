@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Finder</h1>
+    </header>
+    <main>
+        <section class="search-section">
+            <input type="text" id="search-input" placeholder="Enter a recipe keyword...">
+            <button id="search-btn">Search</button>
+        </section>
+        <section id="recipes" class="recipes"></section>
+        <div class="recipesContainer">
+        </div>
+        
+        <div id="recipeModal" class="modal">
+            <div class="modal-content">
+                
+            </div>
+            <span class="close">&times;</span>
+            <div id="modalDetails"></div>
+        </div> 
+         
+        <span class="close">&times;</span>
+
+    </main>
+    <footer>
+        <p>Powered by Spoonacular API</p>
+    </footer>
+    <script type="module" src="/js/recipeDetails.js"></script>
+    <script type="module" src="/js/app.js"></script>
+</body>
+</html>
+
